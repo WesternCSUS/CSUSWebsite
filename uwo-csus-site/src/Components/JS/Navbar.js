@@ -7,11 +7,11 @@ import '../Styles/Navbar.css';
 const Home = () => {
     return ( 
         <nav className="navbar">
-            <Link to="/About">ABOUT</Link>
-            <Link to="/Events">EVENTS</Link>
-            <img src={CSUSLogo} alt="CSUS_logo"/>
-            <Link to="/Documents">DOCUMENTS</Link>
-            <Link to="/Contact">CONTACT</Link>
+            <Link className="navbar__link" to="/About">ABOUT</Link>
+            <Link className="navbar__link"  to="/Events">EVENTS</Link>
+            <img className="navbar__logo" src={CSUSLogo} alt="CSUS_logo"/>
+            <Link className="navbar__link"  to="/Documents">DOCUMENTS</Link>
+            <Link className="navbar__link"  to="/Contact">CONTACT</Link>
         </nav>
     );
 }
