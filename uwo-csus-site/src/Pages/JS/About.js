@@ -19,7 +19,14 @@ const About = () => {
 
             <div className="About__members">
                 <p className="About__members_header">MEET THE TEAM</p>
-                <MemberCard image={test_image} name = "john doe" title = "president" major = "CS/Statistics" email="johndow@gmail.com" description="I'm not a real person"/>
+                <div className="About__member_cards">
+                    <div className="About__member_card"><MemberCard image={test_image} name = "john doe" role = "president" major = "CS/Statistics" email="johndow@gmail.com" description="I'm not a real person"/></div>
+                    <div className="About__member_card"><MemberCard image={test_image} name = "john doe" role = "president" major = "CS/Statistics" email="johndow@gmail.com" description="I'm not a real person"/></div>
+                    <div className="About__member_card"><MemberCard image={test_image} name = "john doe" role = "president" major = "CS/Statistics" email="johndow@gmail.com" description="I'm not a real person"/></div>
+                    <div className="About__member_card"><MemberCard image={test_image} name = "john doe" role = "president" major = "CS/Statistics" email="johndow@gmail.com" description="I'm not a real person"/></div>
+                    <div className="About__member_card"><MemberCard image={test_image} name = "john doe" role = "president" major = "CS/Statistics" email="johndow@gmail.com" description="I'm not a real person"/></div>
+                    <div className="About__member_card"><MemberCard image={test_image} name = "john doe" role = "president" major = "CS/Statistics" email="johndow@gmail.com" description="I'm not a real person"/></div>
+                </div>
             </div>
         </div>
     );

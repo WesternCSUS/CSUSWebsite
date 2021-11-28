@@ -19,9 +19,19 @@
 
 .About__members_header{
     font-size: 3rem;
+    font-weight: 300;
 }
 
 .About__members{
     width: 90vw;
+}
+
+.About__member_cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.About__member_card{
+    margin: 2rem auto;
 }
 
