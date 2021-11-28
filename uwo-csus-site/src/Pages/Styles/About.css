@@ -1,0 +1,22 @@
+/* The stylesheet for the About Page */
+
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5vw;
+}
+
+.About__description{
+    text-align: left;
+    width: 40vw;
+}
+
+.About__description_header{
+    font-size: 2rem;
+}
+
+.About__members_header{
+    font-size: 3rem;
+}
+
