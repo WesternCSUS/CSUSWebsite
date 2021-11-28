@@ -3,13 +3,14 @@
 .About{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 5vw;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
 }
 
 .About__description{
-    text-align: left;
     width: 40vw;
+    margin-top: 5vh;
 }
 
 .About__description_header{
@@ -18,5 +19,9 @@
 
 .About__members_header{
     font-size: 3rem;
+}
+
+.About__members{
+    width: 90vw;
 }
 

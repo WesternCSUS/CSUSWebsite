@@ -1,0 +1,16 @@
+/* The stylesheet for the MemberCard.js component */
+
+.Card{
+    width: 30rem;
+    height: 15rem;
+    background-color: #4F2683;
+}
+
+.Card__image{
+    width: 5rem;
+    height: 5rem;
+}
+
+.Card__name, .Card__title, .Card__major, .Card__email, .Card__description{
+    color: white;
+}
